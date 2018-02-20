@@ -7,7 +7,8 @@ java -cp hsqldb.jar org.hsqldb.util.DatabaseManagerSwing
 start database
 java -cp hsqldb.jar org.hsqldb.server.Server --database.0 file:homebudgetdb/db  --dbname.0  homebudgetdb
 
-LOGIN
+DB tables
+----------
 create table login  (user_name  char(20) not null , password char(8) not null);
 
 create table payment_type (payment_id int primary key, payment_type  char(50) not null)
