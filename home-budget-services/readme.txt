@@ -17,3 +17,9 @@ create table payment_info( payment_info_id int primary key, payment_type_id int 
 
 create table item_info( item_id int primary key not null, item_name char(100) not null, item_price BIGINT not null,
 ITEM_VENDOR char(200) not null,item_vendor_address char(300), payment_id int foreign key references payment_info(payment_info_id))
+
+
+dummy data
+----------
+
+insert into login values('local','local);
