@@ -23,3 +23,17 @@ dummy data
 ----------
 
 insert into login values('local','local);
+
+
+Integration Testing with Postman , google chrome plugin
+------------------
+http://localhost:8080/login
+Request headers
+Content-Type  application/json
+
+Request -body  JSON
+
+{
+    "username": "local",
+    "password":"local"
+  }
